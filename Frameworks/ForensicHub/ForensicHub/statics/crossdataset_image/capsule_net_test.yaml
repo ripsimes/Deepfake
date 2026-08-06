@@ -1,0 +1,59 @@
+# DDP
+gpus: "0"
+flag: test
+
+# Log
+log_dir: "/content/drive/MyDrive/Capstone_Hripsime/Frameworks/ForensicHub/log/capsule_test"
+checkpoint_path: "/content/drive/MyDrive/Capstone_Hripsime/Frameworks/ForensicHub/log/capsule_train"
+
+# Task
+if_predict_label: true
+if_predict_mask: false
+
+no_model_eval: false
+
+# num_classes needed by CapsuleNet __init__
+num_classes: 2
+
+# Model
+model:
+  name: Capsule_net
+  init_config:
+    yaml_config_path: '/content/drive/MyDrive/Capstone_Hripsime/Frameworks/DeepfakeBench/DeepfakeBench/training/config/config/detector/capsule_net.yaml'
+
+# Transform
+transform:
+  name: AIGCTransform
+  init_config:
+    norm_type: image_net
+
+# Test dataset (add as many as you need)
+test_dataset:
+  - name: AIGCLabelDataset
+    dataset_name: DiffusionForensics_test
+    init_config:
+      image_size: 256
+      path: /content/DiffusionForensics_Recons/test.json
+
+# Evaluators
+evaluator:
+  - name: ImageF1
+    init_config:
+      threshold: 0.5
+  - name: ImageAUC
+  - name: ImageAP
+  - name: ImageAccuracy
+
+# Test related
+test_batch_size: 16
+
+# Device
+device: "cuda"
+num_workers: 2
+pin_mem: true
+
+# Distributed training parameters
+world_size: 1
+local_rank: -1
+dist_on_itp: false
+dist_url: "env://"
