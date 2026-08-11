@@ -1,0 +1,19 @@
+{
+  "model": "DINOv3 ViT-B MAC LoRA DynRes SCL",
+  "artifact_type": "metric_summary_from_inference",
+  "threshold": 0.5,
+  "confusion_matrix": {
+    "TP": 232,
+    "TN": 435,
+    "FP": 65,
+    "FN": 268
+  },
+  "metrics": {
+    "precision": 0.7811447811447811,
+    "recall": 0.464,
+    "f1": 0.5821831869510665,
+    "accuracy": 0.667,
+    "auc": 0.734548,
+    "ap": 0.7769372722351824
+  }
+}

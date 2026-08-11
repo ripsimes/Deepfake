@@ -1,0 +1,1 @@
+{"best_epoch": 5, "test_auc": 0.736972, "test_ap": 0.7804403712666745, "test_f1": 0.6653306613226453, "test_acc": 0.666, "scl_weight": 0.01}
