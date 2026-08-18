@@ -1,0 +1,8 @@
+{"test_image-level F1": 0.2752808630466461, "test_image-level AUC": 0.4322663252240717, "test_image-level AP": 0.46017518639564514, "test_image-level Accuracy": 0.4798387096774194, "epoch": 0}
+{"test_image-level F1": 0.5182986855506897, "test_image-level AUC": 0.5233420726378473, "test_image-level AP": 0.529445469379425, "test_image-level Accuracy": 0.5090725806451613, "epoch": 1}
+{"test_image-level F1": 0.5428881645202637, "test_image-level AUC": 0.5980241122528616, "test_image-level AP": 0.606296181678772, "test_image-level Accuracy": 0.5756048387096774, "epoch": 2}
+{"test_image-level F1": 0.5717368125915527, "test_image-level AUC": 0.6427453610552203, "test_image-level AP": 0.6683962345123291, "test_image-level Accuracy": 0.5997983870967742, "epoch": 3}
+{"test_image-level F1": 0.6627634763717651, "test_image-level AUC": 0.7527112057752341, "test_image-level AP": 0.8087242841720581, "test_image-level Accuracy": 0.7096774193548387, "epoch": 11}
+{"test_image-level F1": 0.6736353039741516, "test_image-level AUC": 0.7663935092597108, "test_image-level AP": 0.8221518397331238, "test_image-level Accuracy": 0.7167338709677419, "epoch": 14}
+{"test_image-level F1": 0.6706021428108215, "test_image-level AUC": 0.7675032112254687, "test_image-level AP": 0.8206758499145508, "test_image-level Accuracy": 0.71875, "epoch": 17}
+{"test_image-level F1": 0.6784037947654724, "test_image-level AUC": 0.7707225663788757, "test_image-level AP": 0.8240643739700317, "test_image-level Accuracy": 0.7237903225806451, "epoch": 19}
