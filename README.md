@@ -1,10 +1,10 @@
 # Deepfake Image Detection Using Deep Learning Approaches
 
-This repository contains the codebase, datasets, and frameworks for evaluating and improving the generalization of deepfake detection models. The study assesses six state-of-the-art (SOTA) models from the ForensicHub framework on the Robust Deepfake Detection Challenge (RDDC) dataset. To improve robustness, this project implements targeted dataset expansion, soft-voting ensembles, and a custom TruFor-guided observation reweighting approach within the loss function for the Effort model. It also includes a replication study of the winning RDDC 2026 solution, ShallowReal DINO-MAC.
+This repository contains the code notebooks, datasets, and frameworks for evaluating and improving the generalization of deepfake detection models. The study assesses six state-of-the-art (SOTA) models from the ForensicHub framework on the Robust Deepfake Detection Challenge (RDDC) dataset. To improve robustness, this project implements targeted dataset expansion, soft-voting ensembles, and a custom TruFor-guided observation reweighting approach within the loss function for the Effort model. It also includes a replication study of the winning RDDC 2026 solution, ShallowReal DINO-MAC.
 
 ## Repository Structure
 
-* **`Codebase/`**: Contains the primary scripts and notebooks used for model training, evaluation, and data processing.
+* **`Code Notebooks/`**: Contains the primary scripts and notebooks used for model training, evaluation, and data processing.
 * **`Database/`**: Stores the datasets utilized for training and testing the models.
     * **`RDDC_Dataset/`**: The original Robust Deepfake Detection Challenge dataset used as the baseline for evaluation.
     * **`Dataset Expansion Resources/`**: Additional benchmark data sourced from DF40, HiDF, and WhichFaceIsReal used to address specific misclassification patterns.
